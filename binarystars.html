@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Binary Stars in 1D</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Hyperspace</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html" class="active">Generic</a></li>
+						<li><a href="elements.html">Elements</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+						<div class="inner">
+							<h1 class="major">The Deformed Gravitational Fields of Binary Stars</h1>
+							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+							Nowadays it is known that most high mass stars and a notable fraction of low mass stars have companions, which makes the study of binary stars an indispensable branch of stellar evolution. Despite all of this, many uncertainties remain in understanding the evolution of these systems due to the additional physical effects introduced to them due to binarity. <br>
+									My master's thesis was specifically focused on answering a specific question on the evolution of binary stars: does the deformed gravitational field of binary stars alter the evolution of binary stars or not? <br>
+									The gravitational field of single stars is spherically symmetric and can easily be incorporated into one-dimensional stellar evolution codes. But the layers of material in a binary star feel gravitational effects from the companion star and the centrifugal forces as well, which is visualized in the deformed binary potential shapes that can be seen in the figure. The spherical symmetry is an approximation which may hold whilst the star isn't big enough compared to its Roche Lobe, but when it is close to mass transfer and after that, one can expect a non-negligible deviation from the gravitational field of a single star.
+									This motivated us to create a numerical code that calculates the properties of binary stars averaged in 1D in order to be applicable to use in one-dimensional stellar evolution codes. quantities such as the average gravitational acceleration, the volume equivalent radius, have been calculated. Additionally, we have calculated properties that can be used in mass transfer calculations such as the area of the ellipsoid nozzle on the L1 plane which mass transfer occurs, and the average effective acceleration on this area. All of these quantities are available on my github and have been calculated for a big range of mass ratios. 
+									One of my favorite moments in this topic was when I found a theoretical equation to estimate the gravitational acceleration in binary stars in 1D, which agree very well with the numerical calculations as can be seen in the figure below. <br>
+									You can read more about my project and its scientific outcomes in the two papers published about it <a href="https://iopscience.iop.org/article/10.3847/1538-4357/acd4c1/meta">here<a> and <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ad583e"> here</a>, and in my <a href="https://era.library.ualberta.ca/items/5fbe25fb-9ed6-4ce1-8625-e8750c2ee550">thesis<a>.
+								     </p>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

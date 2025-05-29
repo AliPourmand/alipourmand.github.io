@@ -38,7 +38,8 @@
 							<a href="#" class="image"><img src="images/me.jpg" alt="" data-position="top right" /></a>
 
 							<p>My name is Ali Pourmand and I am currently a PhD student at Macquarie University in Sydney, Australia. Before that I finished my Master's Degree at the University of Alberta in Edmonton, Canada. <br />
-							I am a theoretical/computational astrophysicist, and use analytical tools and numerical simulations to understand the astronomical phenomena I work on. I am currently working on the theoretical prospects of planet formation in post-AGB disks, disks formed around binary systems with an evolved "post-AGB" star. The motivation for our study is the multitude of similarities these second-generation disks show compared to disks around young stars which are known to be the planet nurseries. However the exotic environments of our second-generation disks makes it an unknown territory to test our current theories of planet formation. <br>
+							I am a theoretical/computational astrophysicist, and use analytical tools and numerical simulations to understand the astronomical phenomena I work on. <br />
+							I am currently working on the theoretical prospects of planet formation in exotic environments; namely post-AGB disks, disks formed around binary systems with an evolved "post-AGB" star. The motivation for our study is the multitude of similarities these second-generation disks show compared to disks around young stars which are known to be the planet nurseries. However the exotic environments of our second-generation disks makes it an unknown territory to test our current theories of planet formation. <br>
 							<br /> I have worked on problems such as binary stellar evolution in the past, and used stellar evolution codes such as MESA to do so.
 							<br />  You can read more about my current and previous projects in my <a href="#two">Research page</a> .<br> 
 						
@@ -55,9 +56,10 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Planet Formation in Post-AGB Disks</h2>
-									<p>I am currently working on the theoretical prospects of planet formation in post-AGB disks, disks formed around binary systems with an evolved "post-AGB" star. The motivation for our study is the multitude of similarities these second-generation disks show compared to disks around young stars which are known to be the planet nurseries. However the exotic environments of our second-generation disks makes it an unknown territory to test our current theories of planet formation. This project involves working with SPH codes such as phantom, and involves dealing with accretion disks and their evolution. </p>
+									<p>I am currently working on the theoretical prospects of planet formation in post-AGB disks, disks formed around binary systems with an evolved "post-AGB" star. The motivation for our study is the multitude of similarities these second-generation disks show compared to disks around young stars which are known to be the planet nurseries. However the exotic environments of our second-generation disks makes it an unknown territory to test our current theories of planet formation. <br>
+									This project is under the supervision of Orsola De Marco and Devika Kamath, and involves combining theory and simulations with observational work. We use analytical estimates to outline the expectations of our disks, and then use the PHANTOM SPH code to simulate these disks in detail. Our analytical and computational efforts are deeply motivated by and constrained with observational insights we gain primarily through collaborating with my primary supervisor's research group. </p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="postagbplanets.html" class="button">Learn more</a></li>
 									</ul>
 								</div>
 							</div>
@@ -67,9 +69,15 @@
 							<div class="content">
 								<div class="inner">
 									<h2> The Deformed Gravitational Fields of Binary Stars</h2>
-									<p>binary stars.</p>
+									<p>Nowadays it is known that most high mass stars and a notable fraction of low mass stars have companions, which makes the study of binary stars an indispensable branch of stellar evolution. Despite all of this, many uncertainties remain in understanding the evolution of these systems due to the additional physical effects introduced to them due to binarity. <br>
+									My master's thesis was specifically focused on answering a specific question on the evolution of binary stars: does the deformed gravitational field of binary stars alter the evolution of binary stars or not? <br>
+									The gravitational field of single stars is spherically symmetric and can easily be incorporated into one-dimensional stellar evolution codes. But the layers of material in a binary star feel gravitational effects from the companion star and the centrifugal forces as well, which is visualized in the deformed binary potential shapes that can be seen in the figure. The spherical symmetry is an approximation which may hold whilst the star isn't big enough compared to its Roche Lobe, but when it is close to mass transfer and after that, one can expect a non-negligible deviation from the gravitational field of a single star.
+									This motivated us to create a numerical code that calculates the properties of binary stars averaged in 1D in order to be applicable to use in one-dimensional stellar evolution codes. quantities such as the average gravitational acceleration, the volume equivalent radius, have been calculated. Additionally, we have calculated properties that can be used in mass transfer calculations such as the area of the ellipsoid nozzle on the L1 plane which mass transfer occurs, and the average effective acceleration on this area. All of these quantities are available on my github and have been calculated for a big range of mass ratios. 
+									One of my favorite moments in this topic was when I found a theoretical equation to estimate the gravitational acceleration in binary stars in 1D, which agree very well with the numerical calculations as can be seen in the figure below. <br>
+									You can read more about my project and its scientific outcomes in the two papers published about it here and here.
+								     </p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="binraystars.html" class="button">Learn more</a></li>
 									</ul>
 								</div>
 							</div>
@@ -78,8 +86,12 @@
 							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Using Quasars as Standard Candles? </h2>
+									<p>"Standard candles" are astronomical phenomena whose distances we can easily measure, and are useful as they can then serve as yardsticks to measure distances in the universe. The reason is usually due to the fact that we have a good understanding of how bright these objects intrinsically are, which we can then use to find their distances based on how dim or bright they "apparently" seem.
+									The first objects used (by Hubble and Humason) to determine cosmological distances were cepheid variables, which was thanks to Henrietta Swan Leavitt who found a clever way to find their intrinsic brightnesses.
+									More recently Supernovae have also been used, which have served us to discover other properties about our universe, namely the fact that it is accelerating in its expansion. <br>
+									A new set of objects that can be potentially used as "standard candles" are quasars, which are active galactic nuclei, and are observable at much further distances than Supernovae and Cepheid variables. This means they could be used to probe information about the universe from much earlier times than what other "standard candles" can give us. 
+									In our project, we have attempted to use a catalog of these objects and find what they predict for the free parameters of a certain modified cosmological model. My contribution to this project was on cosmological data analysis which involved working with the Monte Carlo code emcee. </p>
 									<ul class="actions">
 										<li><a href="generic.html" class="button">Learn more</a></li>
 									</ul>
@@ -135,7 +147,7 @@
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>If you want to get in touch virtually, you can email me or send a message on Linkedin. If you prefer to visit in person, you can drop by my desk at Macquarie University during office hours if you're in Sydney.</p>
+							<p>If you want to get in touch, you can email me or send a message on Linkedin. If you prefer to talk in person, you can drop by my desk at Macquarie University during office hours if you're in Sydney.</p>
 							<div class="split style1">
 								<section>
 									<form method="post" action="#">
@@ -162,8 +174,8 @@
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>
-											<span>Desk 516, 5th floor, 12 WW, Macquarie University<br />
-											Macquarie Park, NSW 2113<br />
+											<span>Desk 516, 5th floor, 12 WW, Macquarie University 2109<br />
+											Macquarie Park, NSW<br />
 											Australia</span>
 										</li>
 										<li>
@@ -174,6 +186,7 @@
 										<li>
 											<h3>Social</h3>
 											<ul class="icons">
+												<li><a href="https://scholar.google.com/citations?user=jDj2Mq8AAAAJ&hl=en" class="icon solid fa-graduation-cap"><span class="label">Google Scholar</span></a></li>
 												<li><a href="https://github.com/AliPourmand" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 												<li><a href="" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 												<li><a href="https://www.linkedin.com/in/ali-pourmand-5a5045289/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
